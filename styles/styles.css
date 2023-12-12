@@ -1,5 +1,5 @@
 /* Universal Styles */
-*, h1, h2, h4 {
+* {
     font-family: 'Exo 2';
     font-size: 16px;
     color: #004FF9;
@@ -12,11 +12,13 @@ header {
     color: #004FF9;
 }
 h1 {
-    font-weight: 600;
     font-style: normal;
     font-size: 65px;
-    z-index: 8;
+    z-index: 100;
     font-family: 'Exo 2';
+    font-kerning: auto;
+    letter-spacing: normal;
+    font-weight: 300;
 }
 /* Table Section */
 table {
