@@ -1,6 +1,6 @@
 /* Universal Styles */
 * {
-    font-family: 'Exo 2';
+    font-family: "Exo";
     font-size: 16px;
     color: #004FF9;
     background-color: #EBC0FF;
@@ -15,10 +15,22 @@ h1 {
     font-style: normal;
     font-size: 65px;
     z-index: 100;
-    font-family: 'Exo 2';
+    font-family: "Exo";
     font-kerning: auto;
     letter-spacing: normal;
-    font-weight: 300;
+    font-weight: 600;
+    -webkit-text-stroke: 0.6px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: -30px;
+}
+hr {
+    width: 55%;
+    padding-top: -50px;
+    margin-top: -12px;
+}
+h2 {
+    padding: 10px;
 }
 /* Table Section */
 table {
@@ -37,6 +49,7 @@ table, thead, tr, td{
     font-family: 'Source Code Pro';
     text-align: center;
 }
-td:first-of-type {
+td {
     text-align: center;
+    padding: 10px;
 }

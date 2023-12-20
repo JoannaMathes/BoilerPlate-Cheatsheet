@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Exo';
+    src: url('./Exo-ExtraLight.woff2') format('woff2'),
+        url('./Exo-ExtraLight.woff') format('woff'),
+        url('./Exo-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('./Exo-Light.woff2') format('woff2'),
+        url('./Exo-Light.woff') format('woff'), 
+        url('./Exo-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('./Exo-LightItalic.woff2') format('woff2'),
+        url('./Exo-LightItalic.woff') format('woff'), 
+        url('./Exo-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('./Exo-SemiBold.woff2') format('woff2'),
+        url('./Exo-SemiBold.woff') format('woff'), 
+        url('./Exo-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('./SourceCodePro-Regular.woff2') format('woff2'),
+         url('./SourceCodePro-Regular.woff') format('woff'), 
+         url('./SourceCodePro-Regular.ttf') format('truetype');
+}
+
+
